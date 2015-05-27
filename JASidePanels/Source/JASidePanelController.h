@@ -71,7 +71,9 @@ typedef enum _JASidePanelState {
 @property (nonatomic, assign) BOOL pushesSidePanels;
 
 // size the left panel based on % of total screen width
-@property (nonatomic) CGFloat leftGapPercentage; 
+@property (nonatomic) CGFloat leftGapPercentage;
+
+@property (nonatomic) CGFloat leftVisibleHeight;
 
 // size the left panel based on this fixed size. overrides leftGapPercentage
 @property (nonatomic) CGFloat leftFixedWidth;
